@@ -133,19 +133,16 @@ The page will automatically reload if you make changes to the code.
 For development, you will only need JDK 1.8 installed in your environement.<br>
 Just go on [official spring boot website](https://start.spring.io/) and generate either maven or gradle project. Open the project in Eclipse Ide.<br>
 Your folder structure must be like this:
-
+```
 Project Folder  
-|  
-|-> src/main/java/  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> com/example/app/  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> dao/  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> model/  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> controller/  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> services/ <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> repositories/  
-
+|--- src/main/java    
+     |--- com/example/app
+          |--- dao
+          |--- model
+          |--- controller
+          |--- services
+          |--- repositories
+```
 ## About the Project
 
 A fullstack application with Java and React including frameworks and libraries. Let's explore the application step-by-step.
@@ -178,24 +175,24 @@ Clone the project from [here](https://github.com/bajaj29/Card-Game) using 'git c
 
 Our java source code folder structure looks like this <br>
 
+```
 cardgame  
-|  
-|-> src/main/java  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> com/example/cardgame  <br> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> `CardgameApplication.java`  <br> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> model  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> `CardException`  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> `Cards.java` <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> `Player.java` <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> controller  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> `CardController.java` <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> service <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> `CardService.java` <br>
-
-|  
-|-> src/test/java  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> com/example/cardgame  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> `CardgameApplicationTests.java`  <br>
+|--- src/main/java
+|     |--- com/example/cardgame
+|          |--- CardgameApplication.java
+|          |--- model  
+|          |    |--- CardException.java
+|          |    |--- Cards.java
+|          |    |--- Player.java
+|          |--- controller
+|          |    |--- CardController.java
+|          |--- service 
+|               |--- CardService.java <br>
+|
+|--- src/test/java
+     |--- com/example/cardgame
+          |--- CardgameApplicationTests.java
+```
 
 - Class [`CardException.java`](https://github.com/bajaj29/Card-Game/blob/master/cardgame/src/main/java/com/example/cardgame/model/CardException.java) : To handle the exception thrown during the api call. <br>
 
