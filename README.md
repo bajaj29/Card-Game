@@ -197,6 +197,13 @@ cardgame
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> com/example/cardgame  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> `CardgameApplicationTests.java`  <br>
 
+- Class [`CardException.java`](https://github.com/bajaj29/Card-Game/blob/master/cardgame/src/main/java/com/example/cardgame/model/CardException.java) : To handle the exception thrown during the Api call. <br>
+
+- Class [`Cards.java`](https://github.com/bajaj29/Card-Game/blob/master/cardgame/src/main/java/com/example/cardgame/model/Cards.java) : To serialize the data as an object of having generated random cards with players name. <br>
+
+- Class [`Player.java`](https://github.com/bajaj29/Card-Game/blob/master/cardgame/src/main/java/com/example/cardgame/model/Player.java) : Gives us the details of winning player (eg. id, name, rank of cards, cards of the player)
+
+
 
 
 
