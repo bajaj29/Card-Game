@@ -28,7 +28,7 @@ Game of 4 players trying their luck to make the best possible hand of playing ca
 - [Create React App](#create-react-app)
 - [Create Spring Boot App](#create-spring-boot-app)
 - [About the Project](#about-the-project)
-  - [Clone or Download Project](#clone-or-download-project)Run The Application
+  - [Clone or Download Project](#clone-or-download-project)
   - [Run The Application](#run-the-application)
   
 
@@ -166,9 +166,10 @@ Clone the project from [here](https://github.com/bajaj29/Card-Game) using 'git c
 - After cards displayed, click "Result" to display the winner.<br><br>
 ![alt img](https://github.com/bajaj29/Card-Game/blob/master/card-images/card-check.png)<br><br>
 - Once Winner declared, we can either do on click "Next Hand" to continue the game with new random cards distributed or exit game on click "Exit".<br><br>
-  - With click of "Next Hand" :
-  [alt img](https://github.com/bajaj29/Card-Game/blob/master/card-images/winner.png)<br><br>
-  [alt img](https://github.com/bajaj29/Card-Game/blob/master/card-images/next-hand.png)<br><br>
+  - With click of "New Hand" :
+  ![alt img](https://github.com/bajaj29/Card-Game/blob/master/card-images/winner.png)<br><br>
+  - New random cards will be displayed :
+  ![alt img](https://github.com/bajaj29/Card-Game/blob/master/card-images/next-hand.png)<br><br>
   - With click of "Exit" :
   ![alt-img](https://github.com/bajaj29/Card-Game/blob/master/card-images/exit.png)<br><br>
 
