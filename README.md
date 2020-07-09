@@ -152,7 +152,10 @@ A fullstack application with Java and React including frameworks and libraries. 
 Clone the project from [here](https://github.com/bajaj29/Card-Game) using 'git clone "<repository path>"' in git bash console.
   
 ### `Run The Application`
-Open the java source code in Eclipse Ide and build the project to download required dependencies. Run the project with click on "Run as Java Application".<br>
-![alt img](https://lh3.googleusercontent.com/proxy/VWTUQHj2FCKEMIJONhRwgH7zeZm0UiWM3ro0Juk6fWuXL4RwSK-lWubJ5B4tWd8dm9ij5V69AvwnJanYjX7MUg7-PjGfNy46lZ5wG6KiuO8BUKT-EBBr-JA87Y8z6022f0xFeE1VCQ)
+Open java source code in Eclipse Ide and build the project to download required dependencies. Run the project with click on "Run as Java Application".<br><br>
+![alt img](https://lh3.googleusercontent.com/proxy/VWTUQHj2FCKEMIJONhRwgH7zeZm0UiWM3ro0Juk6fWuXL4RwSK-lWubJ5B4tWd8dm9ij5V69AvwnJanYjX7MUg7-PjGfNy46lZ5wG6KiuO8BUKT-EBBr-JA87Y8z6022f0xFeE1VCQ) <br>
+Open react project in Visual Studio Code and give command "npm install" in terminal to install required node packages. Run the application by giving command "npm start" in terminal.<br><br>
+![alt img](https://blog.jetbrains.com/wp-content/uploads/2017/01/webstorm-cra-app-is-running.png)
+
 
 
