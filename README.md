@@ -27,7 +27,7 @@ Game of 4 players trying their luck to make the best possible hand of playing ca
 - [Install Node](#install-node)
 - [Create React App](#create-react-app)
 - [Create Spring Boot App](#create-spring-boot-app)
-- [About the Project](#about)
+- [About the Project](#about-the-project)
 
 ## Install Node
 For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
