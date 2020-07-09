@@ -150,5 +150,9 @@ A fullstack application with Java and React including frameworks and libraries. 
 
 ### `Clone or Download Project`
 Clone the project from [here](https://github.com/bajaj29/Card-Game) using 'git clone "<repository path>"' in git bash console.
+  
+### `Run The Application`
+Open the java source code in Eclipse Ide and build the project to download required dependencies. Run the project with click on "Run as Java Application".<br>
+![alt img](https://lh3.googleusercontent.com/proxy/VWTUQHj2FCKEMIJONhRwgH7zeZm0UiWM3ro0Juk6fWuXL4RwSK-lWubJ5B4tWd8dm9ij5V69AvwnJanYjX7MUg7-PjGfNy46lZ5wG6KiuO8BUKT-EBBr-JA87Y8z6022f0xFeE1VCQ)
 
 
