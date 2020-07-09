@@ -15,15 +15,18 @@ Game of 4 players trying their luck to make the best possible hand of playing ca
 
 ## Backend tools & technologies
 
-- [Java](https://www.javatpoint.com/java-tutorial/) 
+- [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) 
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Maven-Repository](https://mvnrepository.com/)
 - [Eclipse IDE](https://www.eclipse.org/)
+- [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
+- [Git](https://git-scm.com/)
 
 ## Table of Contents
 
 - [Install Node](#install-node)
 - [Create React App](#create-react-app)
+- [Create Spring Boot App](#create-spring-boot-app)
 
 ## Install Node
 For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
@@ -119,3 +122,9 @@ Runs the app in development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will automatically reload if you make changes to the code.
+
+## Create Spring Boot App
+
+For development, you will only need JDK 1.8 installed in your environement.
+Just go on [official spring boot website](https://start.spring.io/) and generate either maven or gradle project.
+Open the project in eclipse ide and run the
