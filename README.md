@@ -28,7 +28,7 @@ Game of 4 players trying their luck to make the best possible hand of playing ca
 - [Create React App](#create-react-app)
 - [Create Spring Boot App](#create-spring-boot-app)
 - [About the Project](#about-the-project)
-  - [Clone/Download Project](#clone/download-project)
+  - [Clone or Download Project](#clone-or-download-project)
   
 
 ## Install Node
@@ -148,7 +148,7 @@ Project Folder
 
 A fullstack application with Java and React including frameworks and libraries. Let's explore the application step-by-step.
 
-### Clone/Download Project
+### `Clone or Download Project`
 
 
 
