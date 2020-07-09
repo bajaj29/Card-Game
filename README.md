@@ -1,5 +1,13 @@
 # Card-Game
-Game of 4 players trying their luck to make the best possible hand of playing cards .
+Game of 4 players trying their luck to make the best possible hand of playing cards. The order of ranking of card hands are as follows:
+```
+	1. If all cards are same eg. K, K, K.
+	2. If all three cards are making straight sequence eg. 10, 9, 8.
+	3. If two out of three cards are same eg. K, 2, 2.
+	4. Highest card will be taken eg. K, 8, 3.
+	5. If the highest card is same, then second highest will be taken or else last card will be the decider.
+	6. If players got all card same, then it will be a tie.
+```
 
 ## Frontend tools & technologies 
 
