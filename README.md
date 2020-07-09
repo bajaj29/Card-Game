@@ -144,4 +144,7 @@ Project Folder
 
 ## About the Project
 
+A fullstack application with Java and React including frameworks and libraries. Let's explore the application step-by-step.
+
+
 
