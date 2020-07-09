@@ -30,6 +30,7 @@ Game of 4 players trying their luck to make the best possible hand of playing ca
 - [About the Project](#about-the-project)
   - [Clone or Download Project](#clone-or-download-project)
   - [Run The Application](#run-the-application)
+- [Understanding the Java Code Structure](#understanding-the-java-code-structure)
   
 
 ## Install Node
@@ -172,6 +173,23 @@ Clone the project from [here](https://github.com/bajaj29/Card-Game) using 'git c
   ![alt img](https://github.com/bajaj29/Card-Game/blob/master/card-images/next-hand.png)<br><br>
   - With click of "Exit" :
   ![alt-img](https://github.com/bajaj29/Card-Game/blob/master/card-images/exit.png)<br><br>
+  
+## Understanding the Java Code Structure
+
+Our java source code folder structure looks like this <br>
+
+`cardgame  
+|  
+|-> src/main/java/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> com/example/cardgame/  <br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> model/  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> controller/  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> service/ <br>
+|  
+|-> src/test/java/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-> com/example/cardgame/  <br> `
 
 
 
