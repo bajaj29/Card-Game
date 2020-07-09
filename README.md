@@ -157,6 +157,20 @@ Clone the project from [here](https://github.com/bajaj29/Card-Game) using 'git c
 ![alt img](https://lh3.googleusercontent.com/proxy/VWTUQHj2FCKEMIJONhRwgH7zeZm0UiWM3ro0Juk6fWuXL4RwSK-lWubJ5B4tWd8dm9ij5V69AvwnJanYjX7MUg7-PjGfNy46lZ5wG6KiuO8BUKT-EBBr-JA87Y8z6022f0xFeE1VCQ) <br><br>
 - Open react project in Visual Studio Code and give command "npm install" in terminal to install required node packages. Run the application by giving command "npm start" in terminal.<br><br>
 ![alt img](https://blog.jetbrains.com/wp-content/uploads/2017/01/webstorm-cra-app-is-running.png)<br><br>
+- After successfull run of the server, chrome page will open with [http://localhost:3000](http://localhost:3000)<br><br>
+![alt img](https://github.com/bajaj29/Card-Game/blob/master/card-images/main-page.png)<br><br>
+- Enter the players name in the given fields and click start.<br><br> 
+![alt img](https://github.com/bajaj29/Card-Game/blob/master/card-images/players-entry.png)<br><br>
+- Page will route to [http://localhost:3000/table](http://localhost:3000/table). Click "Check" to display cards on the table.<br><br>
+![alt img](https://github.com/bajaj29/Card-Game/blob/master/card-images/table.png)<br><br>
+- After cards displayed, click "Result" to display the winner.<br><br>
+![alt img](https://github.com/bajaj29/Card-Game/blob/master/card-images/card-check.png)<br><br>
+- Once Winner declared, we can either do on click "Next Hand" to continue the game with new random cards distributed or exit game on click "Exit".<br><br>
+  - With click of "Next Hand" :
+  [alt img](https://github.com/bajaj29/Card-Game/blob/master/card-images/winner.png)<br><br>
+  [alt img](https://github.com/bajaj29/Card-Game/blob/master/card-images/next-hand.png)<br><br>
+  - With click of "Exit" :
+  ![alt-img](https://github.com/bajaj29/Card-Game/blob/master/card-images/exit.png)<br><br>
 
 
 
