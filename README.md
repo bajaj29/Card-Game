@@ -125,9 +125,8 @@ The page will automatically reload if you make changes to the code.
 
 ## Create Spring Boot App
 
-For development, you will only need JDK 1.8 installed in your environement.
-Just go on [official spring boot website](https://start.spring.io/) and generate either maven or gradle project.
-Open the project in eclipse ide
+For development, you will only need JDK 1.8 installed in your environement.<br>
+Just go on [official spring boot website](https://start.spring.io/) and generate either maven or gradle project. Open the project in Eclipse ide.<br>
 Your folder structure must be like this:
 
 Project Folder  
