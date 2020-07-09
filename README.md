@@ -149,6 +149,6 @@ Project Folder
 A fullstack application with Java and React including frameworks and libraries. Let's explore the application step-by-step.
 
 ### `Clone or Download Project`
-Clone the project from [here](https://github.com/bajaj29/Card-Game) using 'git clone <repository path>' in git bash console.
+Clone the project from [here](https://github.com/bajaj29/Card-Game) using 'git clone "<repository path>"' in git bash console.
 
 
