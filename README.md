@@ -231,11 +231,9 @@ Set up an Eclipse Project with JUnit and Mockito frameworks.<br>
 				assertEquals(winner.get(i).getHand().get(j), actualWinnerList.get(i).getHand().get(j));
 			}
 		}
-    ```
     
-  cards: We are passing in controller method above is object of list of cards and list of player names.<br>
+    cards: We are passing in controller method above is object of list of cards and list of player names.<br>
   
-    ```
     private List<String> cardList = new ArrayList<String>() {
       {
         add("3H");
@@ -252,33 +250,33 @@ Set up an Eclipse Project with JUnit and Mockito frameworks.<br>
         add("KH");
         add("JD");
       }
-	  };
+    };
 	
-	  private List<String> namesList = new ArrayList<String>() {
+    private List<String> namesList = new ArrayList<String>() {
       {
         add("Player1");
         add("Player2");
         add("Player3");
         add("Player4");
       }
-	  };
+    };
 	
-	  private Cards cards = new Cards(cardList, namesList);
-    ```
-    ExpectedOutput : Controller method will give us list of [`Player.java`(https://github.com/bajaj29/CardGame/blob/master/cardgame/src/main/java/com/example/cardgame/model/Player.java) object. <br>
+    private Cards cards = new Cards(cardList, namesList);
+   
+    ExpectedOutput : Controller method will give us list of "Player.java" object.
     ActualOutput : Actual output we can design according to cards list we are passing. So for now 
-    ```
-    private List<Player> winner = new ArrayList<Player>() {
-      {
-        add(new Player(1, "A",new ArrayList<Integer>() {
-          {
-            add(3);
-            add(2);
-            add(1);
-          }
-        }, 2))
-      }
-    }
+    
+	    private List<Player> winner = new ArrayList<Player>() {
+	      {
+		add(new Player(1, "A",new ArrayList<Integer>() {
+		  {
+		    add(3);
+		    add(2);
+		    add(1);
+		  }
+		}, 2))
+	      }
+	    }
     ```
     
     
