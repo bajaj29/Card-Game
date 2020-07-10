@@ -259,6 +259,13 @@ Set up an Eclipse Project with JUnit and Mockito frameworks.<br>
         add("JD");
       }
     };
+    
+    In above cardList, strings which we are adding is like "3H". So first index denotes number on the card (A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K) and last index denotes suite.
+    
+    H = heart,
+    C = Club,
+    D = Diamond,
+    S = Spade
 	
     private List<String> namesList = new ArrayList<String>() {
       {
